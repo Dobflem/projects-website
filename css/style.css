@@ -31,3 +31,15 @@
 .row .col.m4 {
   margin-top: 0.5em;
 }
+nav .nav-wrapper {
+  max-width: unset;
+  width: 90%;
+}
+footer.page-footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.section.no-pad-bot {
+  min-height: calc(100vh - 260px);
+}
