@@ -42,7 +42,7 @@ footer.page-footer {
   width: 100%;
 }
 .section.no-pad-bot {
-  min-height: calc(100vh - 260px);
+  min-height: calc(100vh - 288px);
 }
 .p-card {
   background-color: #FFF;
