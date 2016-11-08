@@ -30,6 +30,7 @@
 }
 .row .col.m4 {
   margin-top: 0.5em;
+  margin-bottom: 1em;
 }
 nav .nav-wrapper {
   max-width: unset;
@@ -42,4 +43,11 @@ footer.page-footer {
 }
 .section.no-pad-bot {
   min-height: calc(100vh - 260px);
+}
+.p-card {
+  transition: box-shadow .25s;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+}
+.p-card:hover {
+  box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
